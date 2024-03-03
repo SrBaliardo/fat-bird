@@ -23,7 +23,7 @@ setInterval(function() {
     let holeTop = parseInt(window.getComputedStyle(hole).getPropertyValue('top'));
     let cTop = -(650-bird1Top);
     if ((bird1Top>600)||((blockLeft<20)&&(blockLeft>-50)&&((cTop<holeTop)||(cTop>holeTop+130)))) {
-        // soundDeath.play();
+        soundDeath.play();
         soundDeath.currentTime = 0;
         alert('Game Over. Score: '+counter);
         bird1.style.top = 100 + 'px';
