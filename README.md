@@ -21,7 +21,7 @@ https://srbaliardo.github.io/fat-bird/
 
 <br>
 
-<img height="auto" width="300" src="./src/images/animation_fat-bird.gif">
+<img height="200" width="300" src="./src/images/animation_fat-bird.gif">
 
 <br>
 
